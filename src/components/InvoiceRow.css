@@ -1,0 +1,137 @@
+.data-row {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 75px;
+    background: #fff;
+    margin: 8px 0;
+    box-shadow: 0 10px 10px -10px rgb(72 84 159 / 10%);
+    border-radius: 8px;
+  
+  }
+  .data-row:hover{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 75px;
+    background: #fff;
+    margin: 8px 0;
+    box-shadow: 0 10px 10px -10px rgb(72 84 159 / 10%);
+    border-radius: 8px;
+    border-style:solid;
+    border-color:blue;
+    border-width: 1px;
+  
+  }
+  
+  .item-id {
+    font-family: "Spartan",sans-serif;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 20px;
+  color: #0c0e16;
+  }
+  
+  .item-created-at {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #888eb0;
+  }
+  
+  .item-client-name {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #858bb2;
+  }
+  
+  .item-payment-due {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0c0e16;
+  }
+  .colored-part-and-arrow {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-status-container {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(255,143,0,.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 40px;
+    align-self: center;
+    border-radius: 6px;
+    margin-left: -20px;
+  }
+
+  .item-status-container-green {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(51,214,159,.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 40px;
+    align-self: center;
+    border-radius: 6px;
+    margin-left: -20px;
+  }
+  
+  .dot{
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff8f00;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+
+  .green-dot{
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2eeb27;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  #hashtag-color {
+    color: rgb(126, 136, 195);
+  }
+  #status-value {
+    margin:0;
+  }
+
+  .arrow {
+    margin-left: 5px;
+  }

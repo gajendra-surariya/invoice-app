@@ -1,0 +1,12 @@
+.col-8 {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 750;
+}
+
+.col-4 {
+    padding-top: 5px;
+    text-align:right;
+}

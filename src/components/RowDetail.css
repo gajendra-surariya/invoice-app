@@ -1,0 +1,235 @@
+.detail-header {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    height: 90px;
+    background: #fff;
+    box-shadow: 0 10px 10px -10px rgba(72,84,159,.100397);
+    border-radius: 8px;
+    padding: 0 40px;
+    margin-bottom: 15px;
+}
+
+.detail-card {
+        font-family: "Spartan",sans-serif;
+    margin: 0;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 10px 10px -10px rgba(72,84,159,.100397);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.data-row {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 75px;
+    background: #fff;
+    margin: 8px 0;
+    box-shadow: 0 10px 10px -10px rgb(72 84 159 / 10%);
+    border-radius: 8px;
+  
+  }
+  .data-row:hover{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 75px;
+    background: #fff;
+    margin: 8px 0;
+    box-shadow: 0 10px 10px -10px rgb(72 84 159 / 10%);
+    border-radius: 8px;
+    border-style:solid;
+    border-color:blue;
+    border-width: 1px;
+  
+  }
+  
+  .transaction_id {
+    font-family: "Spartan",sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 700;
+  color: #0c0e16;
+  display: block;
+  
+  }
+  
+  .item-created-at {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #888eb0;
+  }
+  .item-created-at-right {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+    color: #888eb0;
+  }
+  
+  .item-client-name {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #858bb2;
+  }
+  
+  .item-payment-due-detail {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align:left;
+    margin:0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0c0e16;
+  }
+  .colored-part-and-arrow {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-status-container {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(255,143,0,.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 40px;
+    align-self: center;
+    border-radius: 6px;
+    margin-left: 20px;
+    
+  }
+
+  .item-status-container-green {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(51,214,159,.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 40px;
+    align-self: center;
+    border-radius: 6px;
+    margin-left: 20px;
+  }
+
+ 
+  .dot{
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff8f00;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+
+  .green-dot{
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2eeb27;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  #hashtag-color {
+    color: rgb(126, 136, 195);
+  }
+  #status-value {
+    margin:0;
+  }
+
+  .arrow {
+    margin-left: 5px;
+  }
+  p{
+      margin-bottom: 3px;
+  }
+  .detail-card-items {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    background: #f9fafe;
+    border-radius: 8px 8px 0 0;
+    padding: 30px 30px 0;
+  }
+
+  .table-heading {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    text-align:left;
+    grid-template-columns: 300px 95px 75px 115px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7e88c3;
+    text-align: center;
+  }
+
+  .table-main {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 300px 95px 75px 115px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+  }
+
+  .row {
+      padding-bottom: 5px;
+  }
+
+  em {
+      color: #000;
+  }
+
+.aligning {
+  margin-left: 965%;
+}
+
+.table-bottom {
+    font-family: "Spartan",sans-serif;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+    padding: 4px 12px 0px;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@424&display=swap" rel="stylesheet');
+body {
+  margin: 0;
+  padding: 3rem 14rem 2rem 14rem;
+  font-family: "Spartan", sans-serif;
+  background: #f8f8f8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
